@@ -6,8 +6,8 @@ Summary:	Safely evaluate AST nodes without side effects
 URL:		https://pypi.org/project/pure-eval/
 License:	MIT
 Group:		Development/Python
-BuildRequires:	python
 BuildSystem:	python
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
